@@ -1,0 +1,19 @@
+ProjectManagerTests>ValidateIdTest
+	Using this test method to see if if wildcards would work.
+	The result shows that using * as a wildcard does not work.
+	This is consistent with the information found through Google.
+	If I wanted to use wildcards, I would have to write the 
+	lamba expresion with a regex expresion.
+TaskManagerTests>UnlinkTaskTest	
+	This test fails when either project or person is not defined.
+	In the program, no link can be created if project and person exist.
+	However, bugs may exist or changes to the code might be made
+	such that the method is called anyway.
+	The fix would be to introduce some checks to so it from failing.
+TaskManagerTests>GetLinkedTasksTest
+	Running this test with no project or person defined.
+	However, compared to the previous tests, this method has checks
+	for result being null and thus the method works.
+	
+	
+
